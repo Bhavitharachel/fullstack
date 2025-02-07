@@ -1,0 +1,32 @@
+<html>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: stretch;
+        }
+        .item{
+            flex-grow: initial;
+            flex-shrink: inherit;
+            flex-basis: 30cm;
+            align-items: flex-start;
+        }
+        @media screen {
+            .container{
+                display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-around;
+                background-color: aquamarine;
+            }
+        }
+    </style>
+    <body>
+        <div class="container">
+            <div>100</div>
+
+            <div>50</div>
+            <div>25</div>
+        </div>
+    </body>
+</html>
